@@ -29,7 +29,7 @@ func main() {
 	flag.StringVar(&config, "config", "", "config file")
 	flag.StringVar(&dbpath, "dbpath", "urls.db", "Database path")
 	flag.StringVar(&baseurl, "baseurl", "", "Base URL for display purposes")
-	flag.StringVar(&bind, "bind", "0.0.0.0:8000", "[int]:<port> to bind to")
+	flag.StringVar(&bind, "bind", "0.0.0.0:80", "[int]:<port> to bind to")
 	flag.Parse()
 
 	if version {
